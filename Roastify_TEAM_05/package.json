@@ -1,0 +1,22 @@
+{
+  "name": "healthcarebot",
+  "version": "1.0.0",
+  "description": "AAA",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "surya-d-naidu,sreekar,venkat",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "fs-extra": "^11.2.0",
+    "nodemon": "^3.1.7",
+    "socket.io-client": "^4.8.1"
+  }
+}
